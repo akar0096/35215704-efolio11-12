@@ -22,9 +22,9 @@ const routes = [
   { path: '/adminreg', name: 'AdminReg', component: AdminReg }
 ]
 
-// Use hash mode to fix GitHub Pages 404 issue
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  // Hash mode avoids 404 issues on GitHub Pages
+  history: createWebHashHistory('/week9firebase/'),
   routes
 })
 
