@@ -24,7 +24,7 @@ const routes = [
 
 const router = createRouter({
   // Hash mode avoids 404 issues on GitHub Pages
-  history: createWebHashHistory('/35215704-efolio11-12/week9firebase'),
+  history: createWebHashHistory('/35215704-efolio11-12/'),
   routes
 })
 
