@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/week9firebase/'  
+    ? '/35215704-efolio11-12/'  
     : '/'
 }
