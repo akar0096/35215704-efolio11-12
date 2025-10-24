@@ -57,10 +57,12 @@ const routes = [
     component: AdminReg  
   }
 ]
-
+BASE_URL = '/week9firebase/'
 const router = createRouter({
-  history: createWebHistory(),
-  routes
+  history: createWebHistory(process.env.BASE_URL),
+  routes: [
+    // your routes here
+  ]
 })
 
 export default router
