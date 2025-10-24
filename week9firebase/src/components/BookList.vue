@@ -11,6 +11,7 @@
       </li>
     </ul>
 
+    
     <div v-if="editingBook" class="mt-3">
       <h3>Edit Book</h3>
       <form @submit.prevent="updateBook">
