@@ -2,7 +2,7 @@
   <div>
     <h3>Book Queries:</h3>
 
-    <h3>Books with ISBN > 2000 (where)</h3>
+    <h3>Book with ISBN > 2000 (where)</h3>
     <ul>
       <li v-for="book in whereBooks" :key="book.id">
         {{ book.name }} - ISBN: {{ book.isbn }}
